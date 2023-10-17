@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.6.1](https://github.com/panva/node-openid-client/compare/v5.6.0...v5.6.1) (2023-10-11)
+
+
+### Fixes
+
+* consistent space encoding in authorizationUrl ([#627](https://github.com/panva/node-openid-client/issues/627)) ([ad68223](https://github.com/panva/node-openid-client/commit/ad6822333d713733655865e234290417ea59382b)), closes [#626](https://github.com/panva/node-openid-client/issues/626)
+
+## [5.6.0](https://github.com/panva/node-openid-client/compare/v5.5.0...v5.6.0) (2023-10-03)
+
+
+### Features
+
+* experimental Bun support ([a9d3a87](https://github.com/panva/node-openid-client/commit/a9d3a87d2727bb37a535aeac9da9851ffdef8613)), closes [#622](https://github.com/panva/node-openid-client/issues/622) [#623](https://github.com/panva/node-openid-client/issues/623)
+
+## [5.5.0](https://github.com/panva/node-openid-client/compare/v5.4.3...v5.5.0) (2023-09-08)
+
+
+### Features
+
+* **DPoP:** remove experimental warning, DPoP is now RFC9449 ([133a022](https://github.com/panva/node-openid-client/commit/133a022cce8e0d7a386b59163c18c100c80df2ab))
+
+## [5.4.3](https://github.com/panva/node-openid-client/compare/v5.4.2...v5.4.3) (2023-07-06)
+
+
+### Fixes
+
+* handle empty client_secret with basic and post client auth ([#610](https://github.com/panva/node-openid-client/issues/610)) ([402c711](https://github.com/panva/node-openid-client/commit/402c711fde93d5644c3b70861c462213bc87ab34)), closes [#609](https://github.com/panva/node-openid-client/issues/609)
+
 ## [5.4.2](https://github.com/panva/node-openid-client/compare/v5.4.1...v5.4.2) (2023-04-25)
 
 
